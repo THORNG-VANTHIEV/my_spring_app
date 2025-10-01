@@ -1,5 +1,5 @@
-[build]
+[buil]
 builder = "nixpacks"
 
 [deploy]
-startCommand = "java -jar build/libs/*.jar"
+startCommand = "Java -jar build/libs/*[!plain].jar"
